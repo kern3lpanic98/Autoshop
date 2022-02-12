@@ -1,0 +1,34 @@
+body{
+	background-color: #4682B4;
+}
+
+#tableRow {
+	margin-left: 470px;
+	margin-right: 50px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+
+/*********** media query ***************/
+
+
+@media screen and (max-width: 1000px)
+{
+	#tableRow {
+		margin-left: 470px;
+		margin-right: 50px;
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+}
+
+@media screen and (min-width: 100px)
+{
+	#tableRow {
+		margin-left: 450px;
+		margin-right: 50px;
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+}

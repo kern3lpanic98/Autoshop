@@ -1,0 +1,369 @@
+body {
+	background-color: #FDFDFD;
+	margin: 10px;
+	font-family: sans-serif;
+}
+/*--------------------- Header ----------------*/
+header.top {
+	background-color: #FDFDFD;
+	margin: 3%;
+	text-align: left;
+}
+
+header.top img {
+	height: 80px;
+}
+
+#carrello{
+	
+	position: relative;
+	top:-20px;
+	
+}
+
+
+.default {
+	background-color: #3d3d29;
+	color: black;
+} /* Gray */
+.default:hover {
+	background: #3d3d29;
+}
+
+.btn {
+	border: none; /* Remove borders */
+	color: white; /* Add a text color */
+	padding: 14px 28px; /* Add some padding */
+	cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+
+.warning {
+	background-color: #ff9800;
+} /* Orange */
+.warning:hover {
+	background: #e68a00;
+}
+
+#logo {
+	position: relative;
+	left: 170px;
+}
+
+#fb {
+	position: relative;
+	left: 120px;
+}
+
+#alfa {
+	position: relative;
+	left: 300px;
+}
+
+#fiat {
+	position: relative;
+	left: 270px;
+}
+
+#hyundai {
+	position: relative;
+	left: 220px;
+}
+
+#mercedes {
+	position: relative;
+	left: 420px;
+}
+
+#tag_uno {
+	position: relative;
+	left: 555px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 140%;
+	top: 30px;
+}
+
+#tag_due {
+	position: relative;
+	left: 750px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	top: 30px;
+}
+
+#motto_uno {
+	position: relative;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 300%;
+	left: 210px;
+}
+
+#motto_due {
+	position: relative;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 300%;
+	left: 220px;
+}
+
+/*--------------------- Barra di Navigazione ----------------*/
+nav {
+	position: relative;
+	padding: 0px;
+	height: 48px;
+	width: 1000px;
+	left: 170px;
+}
+
+#menu {
+	display: inline;
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu li {
+	position: relative;
+	float: left;
+	width: 140px;
+	text-align: center;
+	list-style: none;
+}
+
+#menu li a {
+	background-color: #FDFDFD;
+	color: #817E7E;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	display: block;
+}
+
+#menu li a:hover {
+	background-color: #4d4d4d;
+	text-shadow: 0px 0px 1px #FFF;
+}
+
+#menu ul ul {
+	z-index: 60;
+	/**Sovrappone il menu a tendidina all'animazione javascrept*/
+	position: absolute;
+	top: 48px;
+	visibility: hidden;
+}
+
+#menu ul li:hover ul {
+	visibility: visible;
+}
+
+#menu ul ul:hover {
+	box-shadow: 0px 20px 30px #7C7C7C;
+}
+
+#menu ul ul li a {
+	background-color: #3A3A3A;
+}
+
+#menu ul ul li a:hover {
+	background-color: #3F3F3F;
+}
+
+nav ul li.selected {
+	background-color: #c8b99c; /*colore del segnatore*/
+}
+
+/*--------------------- Parte centrale ----------------*/
+#tableContainer {
+	display: table;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 1000px;
+	padding-top: 0px;
+}
+
+#tableRow {
+	display: table-row;
+	margin-right: 100000px;
+}
+
+/*--------------------- media queries ----------------*/
+@media sceen and(max-width: 1000px) {
+	body {
+		background-color: #4682B4;
+		margin: 10px;
+		font-family: sans-serif;
+	}
+	/*--------------------- Header ----------------*/
+	header.top {
+		background-color: #454545;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	}
+	header.top img {
+		whidth: 90px;
+		height: 80px;
+	}
+	/*--------------------- Barra di Navigazione ----------------*/
+	nav {
+		margin: 10px;
+		padding: 0px;
+		height: 48px;
+		width: 751px;
+	}
+	#menu {
+		display: inline;
+	}
+	#menu ul {
+		padding: 0px;
+		margin: 0px;
+	}
+	#menu li {
+		position: relative;
+		float: left;
+		width: 140px;
+		text-align: center;
+		list-style: none;
+	}
+	#menu li a {
+		background-color: #454545;
+		color: #FFF;
+		padding: 15px 20px;
+		text-decoration: none;
+		display: block;
+	}
+	#menu li a:hover {
+		background-color: #4d4d4d;
+		text-shadow: 0px 0px 1px #FFF;
+	}
+	#menu ul ul {
+		z-index: 60;
+		/**Sovrappone il menu a tendidina all'animazione javascrept*/
+		position: absolute;
+		top: 48px;
+		visibility: hidden;
+	}
+	#menu ul li:hover ul {
+		visibility: visible;
+	}
+	#menu ul ul:hover {
+		box-shadow: 0px 20px 30px #7C7C7C;
+	}
+	#menu ul ul li a {
+		background-color: #3A3A3A;
+	}
+	#menu ul ul li a:hover {
+		background-color: #3F3F3F;
+	}
+	nav ul li.selected {
+		background-color: #c8b99c; /*colore del segnatore*/
+	}
+
+	/*--------------------- Parte centrale ----------------*/
+	#tableContainer {
+		display: table;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 1000px;
+		padding-top: 0px;
+	}
+	#tableRow {
+		display: table-row;
+		margin-right: 100000px;
+	}
+}
+
+@media sceen and(min-width: 200px) {
+	body {
+		background-color: #4682B4;
+		margin: 10px;
+		font-family: sans-serif;
+	}
+	/*--------------------- Header ----------------*/
+	header.top {
+		background-color: #454545;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: left;
+	}
+	header.top img {
+		whidth: 50px;
+		height: 30px;
+	}
+	/*--------------------- Barra di Navigazione ----------------*/
+	nav {
+		margin: 10px;
+		padding: 0px;
+		height: 0px;
+		width: 0px;
+	}
+	#menu {
+		display: block;
+	}
+	#menu ul {
+		padding: 0px;
+		margin: 0px;
+	}
+	#menu li {
+		position: relative;
+		float: left;
+		width: 0px;
+		text-align: center;
+		list-style: none;
+	}
+	#menu li a {
+		background-color: #454545;
+		color: #FFF;
+		padding: 15px 20px;
+		text-decoration: none;
+		display: block;
+	}
+	#menu li a:hover {
+		background-color: #4d4d4d;
+		text-shadow: 0px 0px 1px #FFF;
+	}
+	#menu ul ul {
+		z-index: 60;
+		/**Sovrappone il menu a tendidina all'animazione javascrept*/
+		position: absolute;
+		top: 48px;
+		visibility: hidden;
+	}
+	#menu ul li:hover ul {
+		visibility: visible;
+	}
+	#menu ul ul:hover {
+		box-shadow: 0px 20px 30px #7C7C7C;
+	}
+	#menu ul ul li a {
+		background-color: #3A3A3A;
+	}
+	#menu ul ul li a:hover {
+		background-color: #3F3F3F;
+	}
+	nav ul li.selected {
+		background-color: #c8b99c; /*colore del segnatore*/
+	}
+
+	/*--------------------- Parte centrale ----------------*/
+	#tableContainer {
+		display: table;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-top: 0px;
+	}
+	#tableRow {
+		display: table-row;
+		margin-right: 0px;
+	}
+}

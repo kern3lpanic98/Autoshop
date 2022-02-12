@@ -1,0 +1,41 @@
+#table_feedback {
+	position: relative;
+	left: 90px;
+	top: 20px;
+}
+
+.btn {
+	border: none; /* Remove borders */
+	color: white; /* Add a text color */
+	padding: 14px 28px; /* Add some padding */
+	cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.default {
+	background-color: #FEFEFB;
+	color: black;
+} /* Gray */
+.default:hover {
+	background: #ddd;
+}
+
+.warning {
+	background-color: #ff9800;
+} /* Orange */
+.warning:hover {
+	background: #e68a00;
+}
+
+#articolo {
+	border: 1px solid #000;
+}
+
+#feedback {
+	border: 2px solid #000;
+	padding-bottom: 15px;
+	background-color: #EEEFE9;
+	margin-left: 100px;
+	margin-right: 20px;
+	width: 100%;
+	margin-left: 100px
+}

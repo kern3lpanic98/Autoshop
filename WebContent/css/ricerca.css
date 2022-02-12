@@ -1,0 +1,86 @@
+/*--------------------- ricerca ----------------*/
+form {
+	float: center;
+	margin: 10px;
+	
+}
+.top form{
+	float: right;
+}
+#s {
+	
+	border-radius: 14px;
+	box-shadow: 1px 1px 2px  black inset;
+	background-color: #FFFFF0;
+	width: 100px;
+	height: 18px;
+	padding: 3px;
+	margin: 0px;
+	
+}
+
+.btn{
+	
+	width: 50px;
+	height: 30px;
+	padding: 3px;
+	margin: 0px;
+	border-radius: 14px;
+	box-shadow: 1px 1px 2px  black inset;
+}
+
+
+
+/********** media query *******/
+
+
+/*@media screen and (max-width: 1000px) {
+	/*--------------------- ricerca ----------------*/
+/*	form {
+		float: center;
+		margin: 10px;
+	}
+	#s {
+		border-radius: 14px;
+		box-shadow: 1px 1px 2px black inset;
+		background-color: #FFFFF0;
+		width: 100px;
+		height: 18px;
+		padding: 3px;
+		margin: 0px;
+	}
+	.btn {
+		width: 50px;
+		height: 30px;
+		padding: 3px;
+		margin: 0px;
+		border-radius: 14px;
+		box-shadow: 1px 1px 2px black inset;
+	}
+}
+
+
+@media screen and (min-width: 200px) {
+	/*--------------------- ricerca ----------------*/
+/*	form {
+		float: right;
+		margin: 10px;
+	}
+	#s {
+		border-radius: 14px;
+		box-shadow: 1px 1px 2px black inset;
+		background-color: #FFFFF0;
+		width: 100px;
+		height: 18px;
+		padding: 3px;
+		margin: 0px;
+	}
+	.btn {
+		width: 50px;
+		height: 30px;
+		padding: 3px;
+		margin: 0px;
+		border-radius: 14px;
+		box-shadow: 1px 1px 2px black inset;
+	}
+}*/

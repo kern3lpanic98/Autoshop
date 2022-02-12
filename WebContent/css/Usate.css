@@ -1,0 +1,13 @@
+aside {
+	margin: 10px;
+}
+#usate a {
+	text-decoration: none;
+	color: RGB(207,237,242);
+}
+
+#usate a:hover {
+	color: #99FF66;
+}
+
+

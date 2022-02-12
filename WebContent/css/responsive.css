@@ -1,0 +1,90 @@
+#page{
+max-width:1280px;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+section {
+  float: left;
+  width: 60%;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+section .bloc {
+margin-right: 2%;
+}
+aside{
+float: left;
+margin: 0 0 20px 1%;
+padding: 0;   
+}
+#bar1{
+width:20%;
+}
+#bar2{
+width:18%;
+}
+footer {
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Nos media queries */
+
+@media screen and (max-width: 1000px) {
+	#bar1,
+	#bar2{
+	width:39%;	
+	}
+	aside{
+	float: left;
+	margin: 0 0 20px 1%;
+	padding: 0;   
+	}     
+}
+
+@media screen and (max-width: 540px) {
+	#bar1,
+	#bar2{
+	clear:both;
+	width:100%;	
+	}
+	aside{
+	float: left;
+	margin: 0 0 20px 1%;
+	padding: 0;   
+	}
+	section {
+	clear:both;
+	width:100%;	
+	}
+	section .bloc {
+	margin:0;
+	}	
+}
+
+@media screen and (max-width: 540px) {
+	#bar1,
+	#bar2{
+	clear:both;
+	width:100%;	
+	}
+	aside{
+	float: left;
+	margin: 0 0 20px 1%;
+	padding: 0;   
+	}
+	section {
+	clear:both;
+	width:100%;	
+	}
+	section .bloc {
+	margin:0;
+}
+}
